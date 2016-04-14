@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>一点资讯</title>
+    <!-- <link rel="stylesheet" href="css/materialize.min.css" /> -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index1.css" />
+</head>
+<body>
+	<!--引导页开始-->
+	 <div class="slider">
+   <ul class="slides">
+     <li class="pink active"> 
+       <!-- random image -->
+        <div class="caption center-align">
+         <h3>This is our big Tagline!1</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+       </div>
+     </li>
+     <li class="blue"> 
+        <!-- random image -->
+        <div class="caption left-align">
+         <h3>Left Aligned Caption2</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+       </div>
+     </li>
+     <li class="green"> 
+       <!-- random image -->
+        <div class="caption right-align">
+         <h3>Right Aligned Caption3</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+       </div>
+     </li>
+     <li class="orange"> 
+       <!-- random image -->
+        <div class="caption center-align">
+         <h3>This is our big Tagline!4</h3>
+         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+         <a id="enter"class="waves-effect waves-light btn">点击进入</a>
+       </div>
+     </li>
+   </ul>
+ </div> 
+
+	<!--引导页结束-->
+<div class="" id="container">
+<!--菜单开始-->
+
+  <div class="top-bar">
+      <div class="user">
+        <img src="image/renaissance_articles_main_list_list.png" alt="">
+      </div>
+      <div class="discover">
+        <img src="image/discover.png" alt="">
+      </div>
+      <div class="logo">
+        <img src="image/renaissance_logo_w.png" alt="">
+        <img src="image/refresh.png" alt="" class = 'icon-A'>
+      </div>
+    </div>
+
+<!--菜单结束-->
+<!--导航开始-->
+    <div class="top-header">
+      <div class="user-more">
+        <img src="image/articles_down.png" alt="">
+      </div>
+      <div class="user-list">
+        <div class="user-lists">
+          <div class="icon-item best">
+            <span>首页</span>
+          </div>
+          <div class="hot icon-item">
+            <span>热点新闻</span>
+            <img src="image/fire.png" alt="">
+          </div>
+          <div class="icon-item yule">
+            <span>娱乐</span>
+          </div>
+          <div class="icon-item shuma">
+            <span>数码</span>
+          </div>
+          <div class="icon-item tiyu">
+            <span>体育</span>
+          </div>
+          <div class="icon-item qiche">
+            <span>汽车</span>
+          </div>
+          <div class="icon-item junshi">
+            <span>军事</span>
+          </div>
+          <div class="icon-item renwen">
+            <span>人文</span>
+          </div>
+          <div class="icon-item jiankang">
+            <span>健康</span>
+          </div>
+          <div class="icon-item caijin">
+            <span>财经</span>
+          </div>
+          <div class="icon-item lvxing">
+            <span>旅行</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="loading">
+    <div class="loading-inner"></div>
+  </div> -->
+    <div class="today">2016.3.6 星期日</div>
+    <div id="list" class="col s12"></div>
+<!--导航结束-->
+<!--Liebiao开始-->
+
+ <div class="row">
+    <div class="article" id="yangben">
+        <div class="article-line"></div>
+      <div class="article-action" style = 'display:none'>
+        <div class="article-action-like">
+          <div class="article-action-inner">
+            <img src="image/renaissance_articles_main_list_biglike.png" alt="">
+            <div>收藏</div>
+          </div>
+        </div>
+        <div class="article-action-dislike">
+          <div class="article-action-inner">
+            <img src="image/renaissance_articles_main_article_unlike_h.png" alt="">
+            <div>不感兴趣</div>
+          </div>
+        </div>
+      </div>
+      <div class="article-link">
+          <img src="" alt="">
+        <div class="article-title"></div>
+        <div class="clear"></div>
+        <div class="article-info">
+          <div class="article-more">
+            <img src="image/renaissance_articles_main_list_feedback.png" alt="">
+          </div>
+          <div class="article-source"></div>
+          <div class="article-date">
+            <span></span>
+          </div>
+          <div class="article-comments">
+            <img src="image/renaissance_articles_main_list_comment.png" alt="">
+            <span></span>
+          </div>
+          <div class="article-like">
+            <img src="image/renaissance_articles_main_list_like.png" alt="">
+            <span></span>
+          </div>
+        </div>
+      </div>
+       </div>
+</div>
+<!--列表结束-->
+</div>	
+
+<!--左侧跳转页面布局-->
+    <div id="user-mask"></div>
+    <div class="guest">
+      <div class="weibo-login">
+        <img src="image/renaissance_articles_weibo.png" alt="">
+        <span>微博登录</span>
+      </div>
+      <div class="guide-btn">
+        <span>表达兴趣，让资讯立即与众不同！</span>
+        <img src="image/renaissance_articles_guide_arrow.png" alt="">
+      </div>
+      <div class="guest-login-btn">
+        已有账号？点此登录
+      </div>
+      <div class="guide-dn">
+        <img src="image/renaissance_articles_download.png" alt="">
+        <span>省流量，下载App</span>
+      </div>
+      <div class="entrypoint">
+        <a href="" class="user-btn">自媒体入口</a>
+        <a href="" class="user-btn">校园大使入口</a>
+      </div>
+    </div>
+<!--左侧跳转结束-->
+<!--右侧跳转搜索页面开始-->
+ <div class="discover-panel">
+      <div class="discover-search">
+        <div class="discover-search-back">
+          <img src="image/renaissance_articles_main_btn_back_white.png" alt="">
+        </div>
+      </div>
+      <div class="discover-search-input-box">
+        <div class="discover-search-input-icon">
+          <img src="image/renaissance_articles_main_explore_search_icon.png" alt="">
+        </div>
+        <div class="discover-search-input-wrapper">
+          <input type="text" value = '搜索并订阅你感兴趣的任意频道'>
+        </div>
+      </div>
+      <div class="search-suggestion">
+        <div class="search-suggestion-in"></div>
+      </div>
+      <div class="cates"> 
+        <div class="spinner_with_logo">
+          <img src="" alt="">
+          <img src="" alt="">
+        </div>
+      </div>  
+      <div class="discovers">
+        <div class="spinner_with_logo">
+          <img src="image/renaissance_share_spinner_logo.png" alt="" class = 'spinner_logo'>
+          <img src="image/renaissance_share_default_ptr_rotate.png" alt="" class = 'spinner_ring'>
+        </div>
+      </div>
+    </div>
+<!--右侧跳转搜索页面结束-->
+ <!--微博登录-->
+    <div class="weibo">
+      <div class="user-back">
+        <img src="image/renaissance_guide_back.png" alt="">
+      </div>
+      <div class="dengluall">
+        <div class="denglu">
+        <div class="container">
+          <div class="header">
+            <img src="image/logo.png" alt="">
+            <div class="zhuce">
+              <div class="zhuce1">
+                <a href="" class="zhuce2">
+                  <em class="zhuce3">注册</em>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wedenglu">
+        <div class="wetitle">
+           使用你的微博帐号访问
+           <span> 一点资讯.网页版</span> 
+        </div>
+        <div class="welogin">
+          <div class="login">
+            <input type="text" class="userId" value="请用微博帐号登录">
+            <input type="password" class="passwd">
+            <div class="passwd1">请输入密码</div>
+          </div>
+        </div>
+        <div class="login-btn">
+          <a href="" class="btnP">登录</a>
+        </div>
+      </div>
+      </div>  
+    </div>
+    <!--入口登陆-->
+     <div class="rukou">
+      <div class="user-back">
+        <img src="image/renaissance_guide_back.png" alt="">
+      </div>
+      <div class="input-box">
+        <div class="input-icon">
+          <img src="image/renaissance_articles_login_email.png" alt="">
+        </div>
+        <div class="input-wenzi">
+          <input type="text" value = '邮箱'>
+        </div>
+      </div>
+      <div class="input-box">
+        <div class="input-icon">
+          <img src="image/renaissance_articles_login_password.png" alt="">
+        </div>
+        <div class="input-wenzi">
+          <input type="text" value = '密码'>
+        </div>
+      </div>
+      <div class="denglubutton">
+        <input type="submit" value="登&nbsp;&nbsp;&nbsp;录">
+      </div>
+    </div>
+    <!--入口结束-->
+    <!--右侧跳转开始-->
+     <div class="guide-roles">
+      <div class="guide-back">
+        <img src="image/renaissance_guide_back.png" alt="">
+      </div>  
+      <div class="guide-roles-panel">
+        <div class="guide-title">
+          <span>选择你的身份 (可多选) </span>
+          <div class="guide-title-line"></div>
+        </div>
+        <div class="role-hint">智能推荐你感兴趣的频道</div>  
+        <div class="roles">
+          <div class="role">
+            <img src="image/renaissance_role_digital.png" alt="" class="role-icon">
+            <div class="role-name">数码控</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_it.png" alt="" class="role-icon">
+            <div class="role-name">IT人</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_money.png" alt="" class="role-icon">
+            <div class="role-name">财经迷</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_car.png" alt="" class="role-icon">
+            <div class="role-name">汽车迷</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_food.png" alt="" class="role-icon">
+            <div class="role-name">美食控</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_life.png" alt="" class="role-icon">
+            <div class="role-name">养生控</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_fashion.png" alt="" class="role-icon">
+            <div class="role-name">时尚达人</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_travel.png" alt="" class="role-icon">
+            <div class="role-name">旅行者</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_army.png" alt="" class="role-icon">
+            <div class="role-name">军事迷</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_film.png" alt="" class="role-icon">
+            <div class="role-name">电影迷</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_sport.png" alt="" class="role-icon">
+            <div class="role-name">体育迷</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+          <div class="role">
+            <img src="image/renaissance_role_love.png" alt="" class="role-icon">
+            <div class="role-name">情感控</div>
+            <img src="image/renaissance_role_mask.png" alt="" class="role-mask">
+          </div>
+        </div>
+      </div>
+      <div class="role-confirm">
+        <img src="image/renaissance_guide_next.png" alt="">
+      </div>
+    </div>
+    <!--右侧跳转开始-->
+</body>
+<script type="text/javascript"src="js/zepto.min.js">		
+</script>
+<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/index1.js" type="text/javascript" charset="utf-8"></script>
+</html>
